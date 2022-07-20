@@ -3,7 +3,7 @@
   "homepage": "https://ivanshulhan.github.io/react-gh-pages",
   "version": "0.1.0",
   "keywords": [],
-  "author": "",
+  "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
     "classnames": "^2.3.1",
@@ -16,7 +16,7 @@
     "@mate-academy/eslint-config-react": "0.0.7",
     "@mate-academy/eslint-config-react-typescript": "^1.0.1",
     "@mate-academy/scripts": "^1.2.1",
-    "@mate-academy/students-ts-config": "*",
+    "@mate-academy/students-ts-config": "0.0.4",
     "@mate-academy/stylelint-config": "*",
     "@types/node": "^17.0.23",
     "@types/react": "^17.0.43",
