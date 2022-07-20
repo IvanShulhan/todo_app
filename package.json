@@ -1,0 +1,56 @@
+{
+  "name": "todo_app",
+  "homepage": "https://ivanshulhan.github.io/react-gh-pages",
+  "version": "0.1.0",
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "postcss": "^8.4.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@mate-academy/eslint-config-react": "0.0.7",
+    "@mate-academy/eslint-config-react-typescript": "^1.0.1",
+    "@mate-academy/scripts": "^1.2.1",
+    "@mate-academy/students-ts-config": "*",
+    "@mate-academy/stylelint-config": "*",
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "eslint": "^7.32.0",
+    "gh-pages": "^3.2.3",
+    "node-sass": "^6.0.1",
+    "stylelint": "^13.13.1",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "start": "mate-scripts start -l",
+    "build": "mate-scripts build",
+    "test": "mate-scripts test",
+    "lint": "npm run lint-js && npm run lint-css",
+    "predeploy": "npm run build",
+    "deploy": "mate-scripts deploy"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "mateAcademy": {
+    "projectType": "react",
+    "tests": {
+      "cypress": false
+    }
+  }
+}
