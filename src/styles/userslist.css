@@ -1,0 +1,58 @@
+.users-list {
+  list-style: none;
+  width: 300px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%),
+    0 25px 50px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+}
+
+.users-list__item {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.users-list__item button {
+  cursor: pointer;
+  text-align-last: left;
+  width: 100%;
+  border-bottom: 1px solid #999;
+  margin: 0 0 15px;
+  transition: border-color 0.3s linear;
+}
+
+.users-list__item button:hover {
+  border-bottom-color: #c47b36;
+}
+
+.users-list__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-list__info-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #999;
+  margin: 0 0 25px;
+}
+
+.users-list__info button {
+  align-self: flex-end;
+  font-size: 22px;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #c47b36b5;
+  transition: background-color 0.3s linear;
+}
+
+.users-list__info button:hover {
+  background-color: #c47b36;
+}

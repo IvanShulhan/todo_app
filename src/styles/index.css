@@ -25,9 +25,7 @@ body {
   line-height: 1.4em;
   background: #e6d7c8;
   color: #525050;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
+  min-width: 300px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
@@ -38,6 +36,7 @@ body {
 }
 
 .todoapp {
+  width: 450px;
   background: #fff;
   margin: 130px 0 40px;
   position: relative;
@@ -184,11 +183,21 @@ body {
   text-decoration: none;
 }
 
+.todoapp-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  align-self: flex-end;
+}
+
 .info-title {
+  line-height: 1;
   font-size: 20px;
   font-weight: 300;
   color: #c47b36;
-  text-align: right;
 }
 
 .info-error {

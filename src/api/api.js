@@ -22,6 +22,8 @@ const post = (url, data) => (
   })
 );
 
+export const getUser = id => request(`/users/${id}`);
+
 export const createUser = (
   name, username, email, phone,
 ) => post('/users', {

@@ -1,7 +1,6 @@
 .add-user-form {
   width: 350px;
   background: #fff;
-  margin: 200px auto;
   padding: 5px 35px 35px;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%),
     0 25px 50px 0 rgb(0 0 0 / 10%);
@@ -11,24 +10,35 @@
 }
 
 .add-user-form label {
+  position: relative;
   width: 100%;
 }
 
+.add-user-form__input-error-message {
+  font-size: 16px;
+  color: #f04949;
+  font-weight: 500;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}
+
 .add-user-form__title {
+  width: 100%;
   text-align: center;
   font-size: 50px;
   font-weight: 300;
   line-height: 1.5;
-  margin: 20px auto;
+  margin: 20px 0;
   color: #c47b36;
   border-bottom: 1px solid #c47b36;
 }
 
 .add-user-form__input-title {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1;
-  margin: 20px 0;
+  margin: 25px 0 15px;
   color: #c47b36;
 }
 
@@ -40,12 +50,17 @@
   border: none;
   outline: none;
   padding: 0 0 10px;
-  border-bottom: 1px solid #c47b36b5;
+  border-bottom: 1px solid #999;
   transition: border-color 0.3s linear;
 }
 
-.add-user-form__input:hover {
+.add-user-form__input:hover,
+.add-user-form__input:focus {
   border-color: #c47b36;
+}
+
+.add-user-form__input-title::first-letter {
+  text-transform: uppercase;
 }
 
 .add-user-form__input::placeholder {
