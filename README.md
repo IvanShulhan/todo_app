@@ -2,5 +2,5 @@
 
 ## Description
 
-Use: React/JS/CSS(SCSS)/HTML
+Use: React/JS/CSS/HTML
 
