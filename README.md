@@ -1,4 +1,6 @@
-# [React ToDo App](https://ivanshulhan.github.io/todo_app/)
+# React ToDo App
+
+## [Demo](https://ivanshulhan.github.io/todo_app/)
 
 ## Description
 
