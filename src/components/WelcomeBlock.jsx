@@ -8,7 +8,7 @@ export const WelcomeBlock = ({ setIsChecked, setIsSavedList }) => (
     </h3>
     <div className="welcome-block__question">
       <h3 className="welcome-block__question-title">
-        Did you have saved todo list?
+        Do you have saved todo list?
       </h3>
       <div className="welcome-block__question-buttons">
         <button
